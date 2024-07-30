@@ -1,12 +1,13 @@
 {
   "name": "multi_langgg",
   "version": "1.0.2",
-  "description": "",
+  "description": "A package for language switching.",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aashirwad",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }

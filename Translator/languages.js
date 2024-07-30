@@ -128,20 +128,3 @@ const languages = {
       loginSubHeading: "एलआईसी खाते में लॉगिन और पहुंच प्राप्त करने के लिए अपने यूजर आईडी और पासवर्ड का उपयोग करें"
   }
 };
-  
-let currentLanguage = 'ENGLISH';
-  
-const setLanguage = (lang) => {
-  currentLanguage = lang;
-};
-  
-const getTranslation = (key) => {
-  return languages[currentLanguage][key] || key;
-};
-  
-const LanguageSwitcher = {
-  setLanguage,
-  getTranslation,
-};
-
-module.exports = LanguageSwitcher;

@@ -15,4 +15,5 @@ const LanguageSwitcher = {
   getTranslation,
 };
 
-module.exports = LanguageSwitcher;
+const defaultExport = LanguageSwitcher;
+export default defaultExport;

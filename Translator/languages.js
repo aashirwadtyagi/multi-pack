@@ -129,4 +129,5 @@ const languages = {
   }
 };
 
-module.exports = languages;
+const defaultExport = languages;
+export default defaultExport;
